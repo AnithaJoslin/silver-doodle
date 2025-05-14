@@ -1,0 +1,18 @@
+{
+  "name": "GCS to BigQuery Flex Template",
+  "description": "Reads CSV from GCS and writes to BigQuery",
+  "parameters": [
+    {
+      "name": "input_path",
+      "label": "GCS input path",
+      "helpText": "Path to input CSV in GCS",
+      "paramType": "TEXT"
+    },
+    {
+      "name": "output_table",
+      "label": "BigQuery Output Table",
+      "helpText": "BigQuery table to write data to",
+      "paramType": "TEXT"
+    }
+  ]
+}
